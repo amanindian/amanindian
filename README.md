@@ -1,6 +1,6 @@
-- 👋 Hi, I’m @amanindian
+- 👋 Hi, I’m Aman Kumar
 - 👀 I’m interested in Coding
-- 🌱 I’m currently learning Android Devlopment
+- 🌱 I’m currently learning Full Stack Web Development.
 - 💞️ I’m looking to collaborate on ..
 - 📫 How to reach me by E-mail
 
