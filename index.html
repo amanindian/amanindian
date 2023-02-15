@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aman. Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="image/icon.png" type="image/x-icon" />
+    <script src="https://kit.fontawesome.com/e1b2553395.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="preloder"></div>
+    <div id="header">
+        <div class="container">
+            <nav id="nav">
+                <a href="#"> <img class="logo" src="image/logoa.png" alt="Logo"></a>
+                <ul id="sidemenu">
+                    <li><a href="#" onclick="hideminu()">Home</a></li>
+                    <li><a href="#about" onclick="hideminu()">About</a></li>
+                    <li><a href="#servics" onclick="hideminu()">Services</a></li>
+                    <li><a href="#portfolio" onclick="hideminu()">Work</a></li>
+                    <li><a href="#certificate" onclick="hideminu()">Certificate</a></li>
+                    <li><a href="#contact" onclick="hideminu()">Contact</a></li>
+                    <i class="fa-solid fa-circle-xmark" onclick="clos()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="opens()"></i>
+            </nav>
+            <div class="header-text">
+                <h1>Hi I'm <span class="typed-text"></span> <br>from India</h1>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- --------------------about--------------------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="image/user.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-text">About Me </h1>
+                    <p>My name is Aman Kumar. I am a student from Siwan, Bihar. Currently I am pursuing Batchlor of Computer Application from "Indira Gandhi National Open University". I did my Web Development Courses from 'Codedamn', Android Development Courses from "WsCube Tech" and Schooling from Siwan, Bihar. I belong to a middle-class family. We are six members in my family Father, Mother, Younger Brother & Sister. My Strength are I am Honest, Hardworking, Self-Motivated and quick learner. My short-term goal is to get a job in a reputed Company in which I can grow my working skill and more and more knowledge edge which help me a lot in future. My long-term goal is to become a more responsible and knowledgeable personality that help me to achieve a good position in the organization.
+                    </p>
+
+                    <div class="tab-titles ">
+                        <p class="tab-link active-link" onclick="opentab('skill')">Skill</p>
+                        <p class="tab-link " onclick="opentab('exprience')">Exprience</p>
+                        <p class="tab-link" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skill">
+                        <ul>
+                            <li><span>Ms-Office</span><br>Ms-word, Excel, PowerPoint</li>
+                            <li><span>Web Development</span><br>HTML, CSS, JavaScript</li>
+                            <li><span>Android Development</span><br>Android app Desing</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="exprience">
+                        <ul>
+                            <li><span>2020-2021</span><br>Team Management</li>
+                            <li><span>2021-2022</span><br>Web Development</li>
+                            <li><span>2022-2022</span><br>Android Development</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2010-2018</span><br>1<sup>th</sup> to 8<sup>th</sup></li>
+                            <li><span>2018-2020</span><br>9<sup>th</sup> to 10<sup>th</sup></li>
+                            <li><span>2020-2022</span><br>11<sup>th</sup> to 12<sup>th</sup></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- ----------------------Service--------------------------------------->
+    <div id="servics">
+        <div class="container">
+            <h1 class="sub-text">My Services</h1>
+            <div class="service-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Desine</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic vero quod dolorem ratione eligendi
+                        ipsum debitis id ipsam eveniet eaque?
+                    </p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>App Desine</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic vero quod dolorem ratione eligendi
+                        ipsum debitis id ipsam eveniet eaque?
+                    </p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-database"></i>
+                    <h2>Database</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic vero quod dolorem ratione eligendi
+                        ipsum debitis id ipsam eveniet eaque?
+                    </p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ------------------Portfolio--------------------------- -->
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-text">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="image/work-1.png" alt="">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi nam reprehenderit adipisci,
+                            repudiandae aperiam assumenda!
+                        </p>
+                        <a href="#">
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i> </a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="image/work-2.png" alt="">
+                    <div class="layer">
+                        <h3>Music App</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi nam reprehenderit adipisci,
+                            repudiandae aperiam assumenda!
+                        </p>
+                        <a href="#">
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i> </a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="image/work-3.png" alt="">
+                    <div class="layer">
+                        <h3>Online Supping App</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi nam reprehenderit adipisci,
+                            repudiandae aperiam assumenda!
+                        </p>
+                        <a href="#">
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i> </a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+
+
+    <!-- ---------------------------Certificate---------------------------- -->
+
+    <div id="certificate">
+        <div class="container">
+            <h1 class="sub-text">My Certificates</h1>
+            <div class="certificate-list">
+                <div class="work">
+                    <img src="image/cert1.jpg" alt="">
+                    <div class="certificate-about">
+                        <h3>Internet Fundamental</h3>
+                        <p>Codedamn </p>
+                        <a href="https://codedamn.com/certificate/verify/680099523f99c54e1011678e38b69b906aac5db0"
+                            target="_blank">
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i> </a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="image/cert2.jpg" alt="">
+                    <div class="certificate-about">
+                        <h3>HTML and CSS</h3>
+                        <p>Codedamn </p>
+                        <a href="https://codedamn.com/certificate/verify/7f6de65dbe8c4b1dff7f4e43d05172b44170980c"
+                            target="_blank">
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i> </a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="image/cert3.jpg" alt="">
+                    <div class="certificate-about">
+                        <h3>Basic JavaScript</h3>
+                        <p>Codedamn</p>
+                        <a href="https://codedamn.com/certificate/verify/18afedb89495281c052737e992347228a326956e"
+                            target="_blank">
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i> </a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+
+
+
+
+
+
+    <!-- -------------------------------Contaact-------------------------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-text">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>amanparariya@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i>08002579962</p>
+                    <div class="social-icon">
+                        <a target="_blank" href="https://www.instagram.com/amankumar80025/">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                        <a target="_blank" href="https://github.com/amanindian">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+                        <a target="_blank" href="https://twitter.com/amankrindian">
+                            <i class="fa-brands fa-twitter"></i>
+                        </a>
+                        <a target="_blank" href="https://www.linkedin.com/in/amanindian/">
+                            <i class="fa-brands fa-linkedin"></i>
+                        </a>
+                        <a target="_blank" href="https://www.facebook.com/amankrindian/">
+                            <i class="fa-brands fa-facebook"></i>
+                        </a>
+                        <a target="_blank" href="https://www.youtube.com/channel/UCMr7miKWktz7vXj7zydHBcQ">
+                            <i class="fa-brands fa-youtube"></i> </a>
+                    </div>
+                    <a href="#contact" onclick="openPopup()" class="btn btn2">Dowanload CV</a>
+                    <div class="for-fixed">
+
+
+
+                        <div id="popup">
+                            <div> <i class="fa-solid fa-check"></i></div>
+                            <p>Sorry I can't see my CV now because of security reasons. </p>
+                            <button type="button" onclick="closePopup()">Ok</button>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Enter your name" required>
+                        <input type="email" name="Email" placeholder="Enter your E-mail" required>
+                        <textarea name="Message" rows="6" placeholder="Enter your message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"> </span>
+                </div>
+            </div>
+
+        </div>
+        <div class="copyright">
+            <p>Copyright &copy; Aman. with <i class="fa-solid fa-heart"></i> by Aman Kumar</p>
+            <div>
+                <p>Time :</p>
+                <p id="time"> </p>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <script>
+
+        // ----------------about title----------------------- //
+        var tablinks = document.getElementsByClassName("tab-link");
+        var tabcontants = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontant of tabcontants) {
+                tabcontant.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+        function opens() {
+            sidemenu.style.right = '0';
+        }
+        function clos() {
+            sidemenu.style.right = '-100% ';
+        }
+        function hideminu() {
+            sidemenu.style.right = '-100%';
+
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbweGq36VULpQGhMpQOuCrhKqbFFbpqcW5GG8uTd7buOHdEbS84qHBMurJqJ9ruz9v5x/exec'
+        const form = document.form['submit-to-google-sheet']
+        const msg = document.getElementById('msg');
+
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => { alert('Messag send Successfu !', response) })
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+        var typed = new Typed(".typed-text", {
+            strings: ["", "Aman Kumar", "Web Developer", "Youtuber"],
+            typeSpeed: 100,
+            backSpeed: 100,
+            loop: true,
+        })
+    </script>
+
+    <script>
+        let time = document.getElementById("time");
+        setInterval(() => {
+            let d = new Date();
+            time.innerHTML = d.toLocaleTimeString();
+        }, 1000);
+
+    </script>
+
+
+    <script>
+        let popup = document.getElementById("popup");
+        function closePopup() {
+            popup.style.top = "-50%"
+        }
+
+        function openPopup() {
+            popup.style.top = "50%"
+            // setTimeout(() => {
+            //     popup.style.top = "-50%"
+            // }, 5000);
+        }
+    </script>
+    <script src="script.js"></script>
+    <script>
+        let preloder = document.getElementById(`preloder`);
+        window.addEventListener("load", function () {
+            preloder.style.display = "none";
+        })
+    </script>
+
+</body>
+
+</html>
