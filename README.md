@@ -8,7 +8,7 @@ amanindian/amanindian is a ✨ special ✨ repository because its `README.md` (t
 You can click the Preview link to take a look at your changes.
 --->
 
-👋 Hi, I’m Aman Kumar
+👋 Hi, I’m Aman Kumar  
 Welcome to my GitHub profile! This README is designed to help you navigate through my repositories and learn more about my skills and experience as a frontend developer.
 
 About Me
