@@ -12,7 +12,8 @@ You can click the Preview link to take a look at your changes.
 Welcome to my GitHub profile! This README is designed to help you navigate through my repositories and learn more about my skills and experience as a frontend developer.
 
 About Me
-I am a frontend developer with experience in building responsive and user-friendly web applications using modern technologies such as React and Bootstrap. I am passionate about creating clean and efficient code and constantly seeking new challenges and opportunities to improve my skills.
+I am a frontend developer with experience in building responsive and user-friendly web applications using modern technologies such as React and Bootstrap.
+I am passionate about creating clean and efficient code and constantly seeking new challenges and opportunities to improve my skills.
 
 Repositories
 I have a variety of repositories on my profile, ranging from small projects to large-scale applications. Here are a few examples of my work:
