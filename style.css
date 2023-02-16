@@ -35,7 +35,7 @@ body {
 
 
 .container {
-    padding: 10px 10%;
+    padding: 10px 7%;
 }
 
 nav {
@@ -43,6 +43,7 @@ nav {
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
+    margin: 0 -6%;
 }
 
 .logo {
@@ -547,7 +548,8 @@ nav ul li a:hover::after {
     width: 100%;
 }
 
-form input, textarea {
+form input,
+textarea {
     width: 100%;
     border: 0;
     background: #262626;
@@ -654,12 +656,15 @@ nav .fa-solid {
         cursor: pointer;
     }
 
-    .fa-bars:before, .fa-navicon:before {
+    .fa-bars:before,
+    .fa-navicon:before {
         content: "\f0c9";
         font-size: 40px;
     }
 
-    .fa-circle-xmark:before, .fa-times-circle:before, .fa-xmark-circle:before {
+    .fa-circle-xmark:before,
+    .fa-times-circle:before,
+    .fa-xmark-circle:before {
         content: "\f057";
         font-size: 40px;
 
@@ -723,7 +728,8 @@ nav .fa-solid {
         font-size: 40px;
     }
 
-    .about-col-1, .about-col-2 {
+    .about-col-1,
+    .about-col-2 {
         flex-basis: 100%;
     }
 
@@ -736,7 +742,8 @@ nav .fa-solid {
 
     }
 
-    .contact-left, .contact-right {
+    .contact-left,
+    .contact-right {
         flex-basis: 100%;
     }
 
@@ -744,11 +751,13 @@ nav .fa-solid {
         font-size: 14px;
     }
 
-    form input, textarea {
+    form input,
+    textarea {
         margin: 15px 0;
     }
 
-    .header-text h1, .header-text p {
+    .header-text h1,
+    .header-text p {
         color: #000;
         margin: 0 -8px;
         font-size: 40px;
