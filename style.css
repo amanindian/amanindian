@@ -2,7 +2,6 @@
     margin: 0;
     color: #fff;
     padding: 0;
-    /* font-family: 'Courier New', Courier, monospace; */
     box-sizing: border-box;
 }
 
@@ -46,8 +45,14 @@ nav {
     margin: 0 -6%;
 }
 
-.logo {
-    width: 180px;
+#logo {
+ text-decoration: none;
+ font-size: 40px;
+ font-family: cursive;
+ color: red;
+}
+#logo span{
+    color: white;
 }
 
 nav ul {
@@ -362,7 +367,6 @@ nav ul li a:hover::after {
     font-family: cursive;
     font-size: 30px;
     font-weight: 500;
-    /* margin-bottom:20px; */
 }
 
 .layer p {
@@ -377,7 +381,8 @@ nav ul li a:hover::after {
     width: 60px;
     height: 60px;
     background: #fff;
-    font-size: 18px;
+    border: 2px solid #000;
+    font-size: 20px;
     border-radius: 50%;
     line-height: 60px;
     color: #000;
@@ -464,7 +469,7 @@ nav ul li a:hover::after {
 
 .certificate-about h3 {
     font-family: cursive;
-    font-size: 25px;
+    font-size: 20px;
     font-weight: 500;
     /* margin-bottom:20px; */
 }

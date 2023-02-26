@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aman. Portfolio</title>
+    <title>AmanIndian</title>
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="image/icon.png" type="image/x-icon" />
     <script src="https://kit.fontawesome.com/e1b2553395.js" crossorigin="anonymous"></script>
@@ -16,13 +16,12 @@
     <div id="header">
         <div class="container">
             <nav id="nav">
-                <a href="#"> <img class="logo" src="image/logoa.png" alt="Logo"></a>
+                <a id="logo" href="#">A<span>man</span></a>
                 <ul id="sidemenu">
                     <li><a href="#" onclick="hideminu()">Home</a></li>
                     <li><a href="#about" onclick="hideminu()">About</a></li>
-                    <li><a href="#servics" onclick="hideminu()">Services</a></li>
                     <li><a href="#portfolio" onclick="hideminu()">Work</a></li>
-                    <li><a href="#certificate" onclick="hideminu()">Certificate</a></li>
+                    <li><a href="#certificate" onclick="hideminu()">Certificates</a></li>
                     <li><a href="#contact" onclick="hideminu()">Contact</a></li>
                     <i class="fa-solid fa-circle-xmark" onclick="clos()"></i>
                 </ul>
@@ -44,7 +43,13 @@
                 </div>
                 <div class="about-col-2">
                     <h1 class="sub-text">About Me </h1>
-                    <p>My name is Aman Kumar. I am a student from Siwan, Bihar. Currently I am pursuing Batchlor of Computer Application from "Indira Gandhi National Open University". I did my Web Development Courses from 'Codedamn', Android Development Courses from "WsCube Tech" and Schooling from Siwan, Bihar. I belong to a middle-class family. We are six members in my family Father, Mother, Younger Brother & Sister. My Strength are I am Honest, Hardworking, Self-Motivated and quick learner. My short-term goal is to get a job in a reputed Company in which I can grow my working skill and more and more knowledge edge which help me a lot in future. My long-term goal is to become a more responsible and knowledgeable personality that help me to achieve a good position in the organization.
+                    <p>My name is Aman Kumar. I am a student from Siwan, Bihar. Currently i am pursuing Batchlor of
+                        Computer Application from "Indira Gandhi National Open University". I did my Front-End
+                        Development Courses from 'Codedamn' and Schooling from Siwan, Bihar. My Strength are I am
+                        Honest, Hardworking, Self-Motivated and quick learner. My short-term goal is to get a job in a
+                        reputed Company in which I can grow my working skill and more and more knowledge edge which help
+                        me a lot in future. My long-term goal is to become a more responsible and knowledgeable
+                        personality that help me to achieve a good position in the organization.
                     </p>
 
                     <div class="tab-titles ">
@@ -55,22 +60,21 @@
                     <div class="tab-contents active-tab" id="skill">
                         <ul>
                             <li><span>Ms-Office</span><br>Ms-word, Excel, PowerPoint</li>
-                            <li><span>Web Development</span><br>HTML, CSS, JavaScript</li>
-                            <li><span>Android Development</span><br>Android app Desing</li>
+                            <li><span>Front-End Development</span><br>HTML, CSS and JavaScript</li>
+                            <li><span>Framework and Library </span><br>React.js and Bootstrap</li>
                         </ul>
                     </div>
                     <div class="tab-contents" id="exprience">
                         <ul>
-                            <li><span>2020-2021</span><br>Team Management</li>
-                            <li><span>2021-2022</span><br>Web Development</li>
-                            <li><span>2022-2022</span><br>Android Development</li>
+                            <li><span>2020-2021</span><br>Ms-Office</li>
+                            <li><span>2021-2022</span><br>Front-End Development</li>
                         </ul>
                     </div>
                     <div class="tab-contents" id="education">
                         <ul>
                             <li><span>2010-2018</span><br>1<sup>th</sup> to 8<sup>th</sup></li>
-                            <li><span>2018-2020</span><br>9<sup>th</sup> to 10<sup>th</sup></li>
-                            <li><span>2020-2022</span><br>11<sup>th</sup> to 12<sup>th</sup></li>
+                            <li><span>2018-2022</span><br>9<sup>th</sup> to 12<sup>th</sup></li>
+                            <li><span>2022-2025</span><br>BCA</li>
                         </ul>
                     </div>
                 </div>
@@ -79,76 +83,55 @@
     </div>
 
 
-    <!-- ----------------------Service--------------------------------------->
-    <div id="servics">
-        <div class="container">
-            <h1 class="sub-text">My Services</h1>
-            <div class="service-list">
-                <div>
-                    <i class="fa-solid fa-code"></i>
-                    <h2>Web Desine</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic vero quod dolorem ratione eligendi
-                        ipsum debitis id ipsam eveniet eaque?
-                    </p>
-                    <a href="#">Learn more</a>
-                </div>
-                <div>
-                    <i class="fa-brands fa-app-store"></i>
-                    <h2>App Desine</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic vero quod dolorem ratione eligendi
-                        ipsum debitis id ipsam eveniet eaque?
-                    </p>
-                    <a href="#">Learn more</a>
-                </div>
-                <div>
-                    <i class="fa-solid fa-database"></i>
-                    <h2>Database</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic vero quod dolorem ratione eligendi
-                        ipsum debitis id ipsam eveniet eaque?
-                    </p>
-                    <a href="#">Learn more</a>
-                </div>
-            </div>
-        </div>
-    </div>
 
     <!-- ------------------Portfolio--------------------------- -->
-
     <div id="portfolio">
         <div class="container">
-            <h1 class="sub-text">My Work</h1>
+            <h1 class="sub-text">My Projects</h1>
             <div class="work-list">
                 <div class="work">
                     <img src="image/work-1.png" alt="">
                     <div class="layer">
-                        <h3>Social Media App</h3>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi nam reprehenderit adipisci,
-                            repudiandae aperiam assumenda!
+                        <h3>Portfolio Website</h3>
+                        <p>This is my Portfolio Website "AmanIndian" which I have make individually in three days. I
+                            used HTML, CSS and JavaScript technology in this project.
                         </p>
-                        <a href="#">
-                            <i class="fa-solid fa-arrow-up-right-from-square"></i> </a>
+                        <a title="Visit Site" href="#">
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                        </a>
+                        <a title="Source Code" target="_blank" href="https://github.com/amanindian/amanindian">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
                     </div>
                 </div>
                 <div class="work">
                     <img src="image/work-2.png" alt="">
                     <div class="layer">
-                        <h3>Music App</h3>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi nam reprehenderit adipisci,
-                            repudiandae aperiam assumenda!
+                        <h3>E-Commerce website</h3>
+                        <p>This is E-commerce website "ShopNow.com" which I have make individually in one week. I used
+                            HTML, CSS and JavaScript technology in this project.
                         </p>
-                        <a href="#">
-                            <i class="fa-solid fa-arrow-up-right-from-square"></i> </a>
+                        <a title="Visit Site" target="_blank" href="https://amanshopnow.netlify.app/">
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                        </a>
+                        <a title="Source Code" target="_blank" href="https://github.com/amanindian/ShopNow">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
                     </div>
                 </div>
                 <div class="work">
                     <img src="image/work-3.png" alt="">
                     <div class="layer">
-                        <h3>Online Supping App</h3>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi nam reprehenderit adipisci,
-                            repudiandae aperiam assumenda!
+                        <h3>Text Utility</h3>
+                        <p>This is Text Utility website "TextUtils" in whict we can manipulate our text in the way we
+                            want suct as Word & character counter,extra spaces and copy text.
                         </p>
-                        <a href="#">
-                            <i class="fa-solid fa-arrow-up-right-from-square"></i> </a>
+                        <a title="Visit Site" target="_blank" href="https://amantextutils.netlify.app/">
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                        </a>
+                        <a title="Source Code" target="_blank" href="https://github.com/amanindian/Text-Utils">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -193,6 +176,26 @@
                             <i class="fa-solid fa-arrow-up-right-from-square"></i> </a>
                     </div>
                 </div>
+                <div class="work">
+                    <img src="image/cert4.jpg" alt="">
+                    <div class="certificate-about">
+                        <h3>Advance HTML & CSS</h3>
+                        <p>Codedamn</p>
+                        <a href="https://codedamn.com/certificate/verify/d982e6ffb04b8ae3ac4a41e29f56f2bce86364f5"
+                            target="_blank">
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i> </a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="image/cert5.jpg" alt="">
+                    <div class="certificate-about">
+                        <h3>Advance JavaScript</h3>
+                        <p>Codedamn</p>
+                        <a href="https://codedamn.com/certificate/verify/163374201f3b8cdf0a97e70ea28064d43664beb3"
+                            target="_blank">
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i> </a>
+                    </div>
+                </div>
             </div>
             <a href="#" class="btn">See More</a>
         </div>
@@ -209,7 +212,7 @@
             <div class="row">
                 <div class="contact-left">
                     <h1 class="sub-text">Contact Me</h1>
-                    <p><i class="fa-solid fa-paper-plane"></i>amanparariya@gmail.com</p>
+                    <p><i class="fa-solid fa-paper-plane"></i>kramanpandey53@gmail.com</p>
                     <p><i class="fa-solid fa-square-phone"></i>08002579962</p>
                     <div class="social-icon">
                         <a target="_blank" href="https://www.instagram.com/amankumar80025/">
@@ -231,10 +234,8 @@
                             <i class="fa-brands fa-youtube"></i> </a>
                     </div>
                     <a href="#contact" onclick="openPopup()" class="btn btn2">Dowanload CV</a>
+
                     <div class="for-fixed">
-
-
-
                         <div id="popup">
                             <div> <i class="fa-solid fa-check"></i></div>
                             <p>Sorry I can't see my CV now because of security reasons. </p>
@@ -298,36 +299,17 @@
 
         }
     </script>
-    <script>
-        const scriptURL = 'https://script.google.com/macros/s/AKfycbweGq36VULpQGhMpQOuCrhKqbFFbpqcW5GG8uTd7buOHdEbS84qHBMurJqJ9ruz9v5x/exec'
-        const form = document.form['submit-to-google-sheet']
-        const msg = document.getElementById('msg');
 
-        form.addEventListener('submit', e => {
-            e.preventDefault()
-            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
-                .then(response => { alert('Messag send Successfu !', response) })
-                .catch(error => console.error('Error!', error.message))
-        })
-    </script>
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
     <script>
         var typed = new Typed(".typed-text", {
-            strings: ["", "Aman Kumar", "Web Developer", "Youtuber"],
+            strings: ["", "Aman Kumar", "Front-End Developer"],
             typeSpeed: 100,
             backSpeed: 100,
             loop: true,
         })
     </script>
 
-    <script>
-        let time = document.getElementById("time");
-        setInterval(() => {
-            let d = new Date();
-            time.innerHTML = d.toLocaleTimeString();
-        }, 1000);
-
-    </script>
 
 
     <script>
@@ -350,7 +332,6 @@
             preloder.style.display = "none";
         })
     </script>
-
 </body>
 
 </html>
