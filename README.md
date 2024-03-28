@@ -18,7 +18,7 @@ I am passionate about creating clean and efficient code and constantly seeking n
 # Repositories  
 I have a variety of repositories on my profile, ranging from small projects to large-scale applications. Here are a few examples of my work:  
 Portfolio of Aman: This is my Portfolio Website - https://github.com/amanindian/amanindian  
-ShopNow: This is a E-commerce project. feature of this website is : Home, About, Shop, Blog Post, Cart and Contact Us. - https://github.com/amanindian/ShopNow-react  
+ShopNow: This is a E-commerce project. feature of this website is : Home, About, Shop, Blog Post, Cart and Contact Us. - https://github.com/amanindian/ShopNow-react    
 Text-Utils: It is a simple project in which we can Analyze text, convert text to upper and lower case and also we can copy text. - https://github.com/amanindian/Text-Utils  
 
 
